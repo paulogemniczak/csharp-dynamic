@@ -9,3 +9,7 @@ name = "Daniele";
 dynamic a = 10; // dynamic {int}
 dynamic b = 5; // dynamic {int}
 var c = a + b; // dynamic {int}
+
+int i = 6;
+dynamic d = i; // dynamic {int}
+long l = d; // automatic cast
